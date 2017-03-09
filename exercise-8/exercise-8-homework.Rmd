@@ -1,0 +1,21 @@
+---
+title: "exercise-8-homework"
+output: html_document
+---
+# Exercise I
+``` {r}
+library(ggplot2)
+dat <- read.csv("/home/eeb177-student/Desktop/EEB-177/Lab-Work/exercise-8/Rgraphics/dataSets/EconomistData.csv")
+head(dat)
+
+plot1 <- ggplot(dat, aes(x = CPI, y = HDI))
+plot1 + geom_point(aes(color = Region, size = HDI.Rank))
+
+
+```
+
+# Exercise II
+
+``` {r}
+
+```
